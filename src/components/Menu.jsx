@@ -5,16 +5,17 @@ function Menu() {
   return (
     <StyledMenu>
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/Classic">Classic Rock</NavLink>
-      <NavLink to="/Heavy">Heavy Metal</NavLink>
+      <NavLink to="/classic">Classic Rock</NavLink>
+      <NavLink to="/heavy">Heavy Metal</NavLink>
     </StyledMenu>
   );
 }
+
 const StyledMenu = styled.nav`
-  /* height: 50px;
+  height: 50px;
   display: flex;
   justify-content: space-evenly;
-  align-items: center; */
+  align-items: center;
 
   .active {
     background-color: black;
@@ -30,14 +31,6 @@ const StyledMenu = styled.nav`
     justify-content: center;
     align-items: center;
     transition: transform 100ms;
-
-    /* & -> referência ao
-    seletor pai (a) */
-    &:hover {
-      background-color: pink;
-      color: black;
-      transform: scale(1.05);
-    }
   }
 `;
 

@@ -1,5 +1,7 @@
+import Metal from "../components/Metal";
+
 function Home() {
-  return <h1>Pag Home</h1>;
+  return <Metal />;
 }
 
 export default Home;
