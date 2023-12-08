@@ -1,5 +1,5 @@
 function Heavy() {
-  return <h1>Pag Home</h1>;
+  return <h1>Pag Heavy</h1>;
 }
 
 export default Heavy;

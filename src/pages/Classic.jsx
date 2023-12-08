@@ -1,5 +1,5 @@
 function Classic() {
-  return <h1>Pag Home</h1>;
+  return <h1>Pag Classic</h1>;
 }
 
 export default Classic;
