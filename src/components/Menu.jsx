@@ -12,10 +12,10 @@ function Menu() {
 }
 
 const StyledMenu = styled.nav`
-  height: 50px;
+  height: auto;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
 
   .active {
     background-color: black;
