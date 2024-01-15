@@ -1,25 +1,49 @@
 /*  CSS Global (src/index.css) */
 *,
-*::after,
-*::before {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 html {
-  font-size: 16px;
+  height: 100vh;
 }
-
 body {
-  font-family: "Segoe UI", sans-serif;
-  background: rgba(253, 216, 45, 1) 62%;
-}
-
-body,
-h1,
-h2,
-h3,
-p,
-hr {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(241, 231, 103, 1) 0%,
+    rgba(254, 182, 69, 1) 100%
+  );
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0.5rem 0;
+}
+
+section {
+  padding: 1rem;
+}
+
+#root {
+  display: flex;
+  box-shadow: 10px 0px 50px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
 }

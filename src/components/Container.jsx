@@ -5,16 +5,13 @@ function Container({ children }) {
 }
 
 const StyledContaineir = styled.main`
-  width: 90vw;
-  margin: 1rem auto;
-  background-color: #ffffff;
-  padding: 1rem;
-  box-shadow: #afafd4 0 0 1px inset;
-
-  h2,
-  p {
-    padding: 0.2rem 0;
-  }
+  width: 50vw;
+  height: 400px;
+  border: solid 10px black;
+  display: flex;
+  background-color: white;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
 `;
 
 export default Container;

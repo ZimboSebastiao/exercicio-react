@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Menu from "./Menu";
 
+
 function Cabecalho() {
   return (
     <StyledCabecalho>
